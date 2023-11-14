@@ -1,8 +1,7 @@
 #include <string>
 
 std::string problemSolution3(float height, char S) {
-    // write your code here
- cin >> S >> height;   
+    // write your code here  
 if (S == 'M' && height < 1.70)
 {
     return "Short";}
