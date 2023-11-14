@@ -5,22 +5,22 @@ std::string problemSolution3(float height, char S) {
  cin >> S >> height;   
 if (S == 'M' && height < 1.70)
 {
-    cout << "Short";}
+    return "Short";}
 else if (S == 'M' && height >= 1.70 && height < 1.85)
 {
-    cout << "Normal";}
+    return "Normal";}
 else if (S == 'M' && height >= 1.85)
 {
-    cout << "Tall";}
+    return "Tall";}
 else if (S == 'F' && height < 1.60)
 {
-    cout << "Short";}
+    return "Short";}
 else if (S == 'F' && height >= 1.60 && height < 1.75)
 {
-    cout << "Normal";}
+    return "Normal";}
 else if (S == 'F' && height > 1.75)
 {
-    cout << "Tall";}
+    return "Tall";}
     // use return to return your result
     // make use of control flow statements
 }
