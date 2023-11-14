@@ -13,6 +13,6 @@ switch(operation){
       break;
    case '-':
       result = x - y;
-      break;
+      break;}
    return result;
 }
